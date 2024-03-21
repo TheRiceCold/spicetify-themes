@@ -14,19 +14,11 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const keywordsToAssigneesMap = {
-              BurntSienna: ["pjaspinski"],
               Default: ["Blacksuan19"],
-              Dreary: ["CharlieS1103"],
-              Dribbblish: ["khanhas"],
-              Glaze: ["CharlieS1103"],
-              Onepunch: ["okarin001"],
               Sleek: ["harbassan"],
               Turntable: ["grasonchan"],
               Ziro: ["schnensch0"],
               Flow: ["ian-Liaozy", "Ruixi-Zhang"],
-              Matte: ["darkthemer"],
-              Blossom: ["Robatortas"],
-              Nightlight: ["iTenerai"],
             };
 
             const issue = await github.rest.issues.get({
